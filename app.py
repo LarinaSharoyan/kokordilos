@@ -1,8 +1,4 @@
-FROM python:3.9-slim
+# app.py
+print("Hello, Docker!")
 
-WORKDIR /app
-
-COPY . /app
-
-CMD ["python3", "app.py"]
 
